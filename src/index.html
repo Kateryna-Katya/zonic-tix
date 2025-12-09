@@ -16,7 +16,7 @@
     rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -28,7 +28,13 @@
     </main>
 
     <load src="./partials/footer.html" />
-
+<div class="cookie-popup" id="cookiePopup">
+  <div class="cookie-popup__content">
+    <p>Этот сайт использует cookies для улучшения работы. Подробнее — в нашей <a href="./cookies.html">Cookie
+        политике</a>.</p>
+    <button class="btn btn--small btn--primary" id="acceptCookies">Принять</button>
+  </div>
+</div>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
